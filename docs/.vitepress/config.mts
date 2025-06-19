@@ -33,6 +33,19 @@ export default defineConfig({
             { text: '🧾 Planning Factures', link: '/dev/planning-factures' },
             { text: '📧 Planning Emails & Templates', link: '/dev/planning-emails' }
           ]
+        },
+        {
+          text: '👥 Documentation Clients',
+          items: [
+            { text: '🏗️ Module 1 : Architecture Globale', link: '/dev/clients/01-architecture-overview' },
+            { text: '🎯 Module 2 : Modèle & Relations', link: '/dev/clients/02-model-client-relations' },
+            { text: '🗄️ Module 3 : Base de Données & Migrations', link: '/dev/clients/03-database-migrations' },
+            { text: '🎮 Module 4 : ClientController - CRUD & Logique Métier', link: '/dev/clients/04-controller-crud' },
+            { text: '📧 Module 5 : Système d\'Emails Clients', link: '/dev/clients/05-email-system' },
+            { text: '⚛️ Module 6 : Composants React - Interface Utilisateur', link: '/dev/clients/06-react-components' },
+            { text: '🛣️ Module 7 : Routes & Navigation', link: '/dev/clients/07-routes-navigation' },
+            { text: '🔧 Module 8 : Traits & Fonctionnalités Avancées', link: '/dev/clients/08-traits-systemes-avances' }
+          ]
         }
       ],
 
