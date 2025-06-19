@@ -35,7 +35,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '👥 Documentation Clients',
+          text: '👥 Documentation Clients (100% ✅)',
           items: [
             { text: '🏗️ Module 1 : Architecture Globale', link: '/dev/clients/01-architecture-overview' },
             { text: '🎯 Module 2 : Modèle & Relations', link: '/dev/clients/02-model-client-relations' },
@@ -45,6 +45,13 @@ export default defineConfig({
             { text: '⚛️ Module 6 : Composants React - Interface Utilisateur', link: '/dev/clients/06-react-components' },
             { text: '🛣️ Module 7 : Routes & Navigation', link: '/dev/clients/07-routes-navigation' },
             { text: '🔧 Module 8 : Traits & Fonctionnalités Avancées', link: '/dev/clients/08-traits-systemes-avances' }
+          ]
+        },
+        {
+          text: '🏢 Documentation Entreprises (Phase 1 ✅)',
+          items: [
+            { text: '🏗️ Module 1 : Vue d\'ensemble Architecture', link: '/dev/entreprises/01-architecture-overview-entreprises' },
+            { text: '🎯 Module 2 : Modèle Entreprise & Relations', link: '/dev/entreprises/02-model-entreprise-relations' }
           ]
         }
       ],
