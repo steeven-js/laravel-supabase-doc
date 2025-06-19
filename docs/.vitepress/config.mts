@@ -22,6 +22,17 @@ export default defineConfig({
           items: [
             { text: '🏠 Accueil Développeurs', link: '/dev/' }
           ]
+        },
+        {
+          text: '📋 Plannings de Rédaction',
+          items: [
+            { text: '👥 Planning Clients', link: '/dev/planning-clients' },
+            { text: '🏢 Planning Entreprises', link: '/dev/planning-entreprises' },
+            { text: '⚙️ Planning Services', link: '/dev/planning-services' },
+            { text: '📄 Planning Devis', link: '/dev/planning-devis' },
+            { text: '🧾 Planning Factures', link: '/dev/planning-factures' },
+            { text: '📧 Planning Emails & Templates', link: '/dev/planning-emails' }
+          ]
         }
       ],
 
