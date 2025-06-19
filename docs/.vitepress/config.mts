@@ -48,10 +48,16 @@ export default defineConfig({
           ]
         },
         {
-          text: '🏢 Documentation Entreprises (Phase 1 ✅)',
+          text: '🏢 Documentation Entreprises (100% ✅ COMPLET)',
+          collapsed: false,
           items: [
-            { text: '🏗️ Module 1 : Vue d\'ensemble Architecture', link: '/dev/entreprises/01-architecture-overview-entreprises' },
-            { text: '🎯 Module 2 : Modèle Entreprise & Relations', link: '/dev/entreprises/02-model-entreprise-relations' }
+            { text: '🏗️ Module 1 : Vue d\'ensemble Architecture ✅', link: '/dev/entreprises/01-architecture-overview-entreprises' },
+            { text: '🎯 Module 2 : Modèle Entreprise & Relations ✅', link: '/dev/entreprises/02-model-entreprise-relations' },
+            { text: '🗄️ Module 3 : Base de Données & Métier ✅', link: '/dev/entreprises/03-database-structure-metier' },
+            { text: '🎮 Module 4 : Controller CRUD Simplifié ✅', link: '/dev/entreprises/04-controller-crud-simplifie' },
+            { text: '⚛️ Module 5 : Interface React B2B ✅', link: '/dev/entreprises/05-interface-react-b2b' },
+            { text: '📊 Module 6 : Statistiques & Analytics ✅', link: '/dev/entreprises/06-statistiques-analytics' },
+            { text: '🔗 Module 7 : Intégrations & Notifications ✅', link: '/dev/entreprises/07-integrations-notifications' }
           ]
         }
       ],
