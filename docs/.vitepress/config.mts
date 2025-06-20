@@ -76,7 +76,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '📄 Documentation Devis (100% 🎉 FINALISÉE)',
+          text: '📄 Documentation Devis (100% 🎉 FINALISÉE + Phase 5)',
           collapsed: true,
           items: [
             { text: '🎯 Module 1.1 : Vue d\'ensemble du Système ✅', link: '/dev/devis/01-vue-ensemble-systeme' },
@@ -93,7 +93,10 @@ export default defineConfig({
             { text: '🚀 Module 3.4 : Fonctionnalités Avancées ✅', link: '/dev/devis/3.4-fonctionnalites-avancees' },
             { text: '🔄 Module 4.1 : Transformation en Factures ✅', link: '/dev/devis/4.1-transformation-factures' },
             { text: '🎮 Module 4.2 : Système de Notifications ✅', link: '/dev/devis/4.2-systeme-notifications' },
-            { text: '🔗 Module 4.3 : Historique et Traçabilité ✅', link: '/dev/devis/4.3-historique-tracabilite' }
+            { text: '🔗 Module 4.3 : Historique et Traçabilité ✅', link: '/dev/devis/4.3-historique-tracabilite' },
+            { text: '🧪 Module 5.1 : Tests Backend ✅', link: '/dev/devis/5.1-tests-backend' },
+            { text: '⚛️ Module 5.2 : Tests Frontend ✅', link: '/dev/devis/5.2-tests-frontend' },
+            { text: '⚡ Module 5.3 : Performance et Optimisation ✅', link: '/dev/devis/5.3-performance-optimisation' }
           ]
         }
       ],
