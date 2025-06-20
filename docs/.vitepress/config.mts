@@ -117,6 +117,22 @@ export default defineConfig({
             { text: '3.1 - Pages Liste et Détails ✅', link: '/dev/factures/3.1-pages-liste-details-factures' },
             { text: '📊 Planning Global', link: '/dev/planning-factures' }
           ]
+        },
+        {
+          text: '📧 Documentation Email Templates (⚡ PHASE 2 DÉMARRÉE)',
+          collapsed: true,
+          items: [
+            { text: '🎯 Phase 1 : Architecture Templates ✅', link: '/dev/email-templates/phase-1-architecture-templates' },
+            { text: '1.1 - Système EmailTemplate ✅', link: '/dev/email-templates/1.1-systeme-emailtemplate' },
+            { text: '1.2 - Méthodes Métier Templates ✅', link: '/dev/email-templates/1.2-methodes-metier-templates' },
+            { text: '1.3 - Validation et Contraintes ✅', link: '/dev/email-templates/1.3-validation-contraintes' },
+            { text: '1.4 - Migration et Seeders ✅', link: '/dev/email-templates/1.4-migration-seeders' },
+            { text: '⚙️ Phase 2 : Backend EmailTemplate 🚀', link: '/dev/email-templates/phase-2-backend-email-templates' },
+            { text: '2.1 - Contrôleurs et API Backend ✅', link: '/dev/email-templates/2.1-controllers-api-backend' },
+            { text: '2.2 - Services Métier et Cache ✅', link: '/dev/email-templates/2.2-services-metier-cache' },
+            { text: '2.3 - Intégration Logs et Monitoring ✅', link: '/dev/email-templates/2.3-integration-logs-monitoring' },
+            { text: '📊 Planning Global', link: '/dev/planning-emails' }
+          ]
         }
       ],
 
