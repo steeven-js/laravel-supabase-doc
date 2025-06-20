@@ -98,6 +98,25 @@ export default defineConfig({
             { text: '⚛️ Module 5.2 : Tests Frontend ✅', link: '/dev/devis/5.2-tests-frontend' },
             { text: '⚡ Module 5.3 : Performance et Optimisation ✅', link: '/dev/devis/5.3-performance-optimisation' }
           ]
+        },
+        {
+          text: '🧾 Documentation Factures (🚀 PHASE 3 DÉMARRÉE)',
+          collapsed: true,
+          items: [
+            { text: '🎯 Phase 1 : Architecture Spécialisée ✅', link: '/dev/factures/phase-1-architecture' },
+            { text: '1.1 - Spécificités vs Devis ✅', link: '/dev/factures/1.1-specificites-factures-vs-devis' },
+            { text: '1.2 - Modèle de Données ✅', link: '/dev/factures/1.2-modele-donnees-factures' },
+            { text: '1.3 - Gestion Paiements ✅', link: '/dev/factures/1.3-gestion-paiements-echeances' },
+            { text: '1.4 - Numéros Fiscaux ✅', link: '/dev/factures/1.4-auto-generation-numeros-fiscaux' },
+            { text: '⚙️ Phase 2 : Backend et Logique Métier ✅', link: '/dev/factures/phase-2-backend' },
+            { text: '2.1 - FactureController CRUD ✅', link: '/dev/factures/2.1-facture-controller-crud' },
+            { text: '2.2 - FacturePdfService ✅', link: '/dev/factures/2.2-facture-pdf-service' },
+            { text: '2.3 - Système Emails ✅', link: '/dev/factures/2.3-systeme-emails-factures' },
+            { text: '2.4 - Services Métier ✅', link: '/dev/factures/2.4-services-metier-factures' },
+            { text: '⚛️ Phase 3 : Frontend React 🚀', link: '/dev/factures/phase-3-frontend' },
+            { text: '3.1 - Pages Liste et Détails ✅', link: '/dev/factures/3.1-pages-liste-details-factures' },
+            { text: '📊 Planning Global', link: '/dev/planning-factures' }
+          ]
         }
       ],
 
