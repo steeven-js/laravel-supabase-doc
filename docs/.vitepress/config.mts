@@ -36,6 +36,7 @@ export default defineConfig({
         },
         {
           text: '👥 Documentation Clients (100% ✅)',
+          collapsed: true,
           items: [
             { text: '🏗️ Module 1 : Architecture Globale', link: '/dev/clients/01-architecture-overview' },
             { text: '🎯 Module 2 : Modèle & Relations', link: '/dev/clients/02-model-client-relations' },
@@ -49,7 +50,7 @@ export default defineConfig({
         },
         {
           text: '🏢 Documentation Entreprises (100% ✅ COMPLET)',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '🏗️ Module 1 : Vue d\'ensemble Architecture ✅', link: '/dev/entreprises/01-architecture-overview-entreprises' },
             { text: '🎯 Module 2 : Modèle Entreprise & Relations ✅', link: '/dev/entreprises/02-model-entreprise-relations' },
@@ -58,6 +59,20 @@ export default defineConfig({
             { text: '⚛️ Module 5 : Interface React B2B ✅', link: '/dev/entreprises/05-interface-react-b2b' },
             { text: '📊 Module 6 : Statistiques & Analytics ✅', link: '/dev/entreprises/06-statistiques-analytics' },
             { text: '🔗 Module 7 : Intégrations & Notifications ✅', link: '/dev/entreprises/07-integrations-notifications' }
+          ]
+        },
+        {
+          text: '⚙️ Documentation Services (100% 🎉 FINALISÉE)',
+          collapsed: true,
+          items: [
+            { text: '🏗️ Module 1 : Vue d\'ensemble Architecture ✅', link: '/dev/services/01-architecture-overview-services' },
+            { text: '🤖 Module 2 : Modèle Service & Auto-génération ✅', link: '/dev/services/02-model-service-auto-generation' },
+            { text: '🔧 Module 3 : Système d\'Unités & Enum ✅', link: '/dev/services/03-systeme-unites-enum' },
+            { text: '🎮 Module 4 : Controller - CRUD & Fonctionnalités Avancées ✅', link: '/dev/services/04-controller-fonctionnalites-avancees' },
+            { text: '🗄️ Module 5 : Base de Données & Évolution Schéma ✅', link: '/dev/services/05-database-evolution-schema' },
+            { text: '⚛️ Module 6 : Interface React - 7 Pages Spécialisées ✅', link: '/dev/services/06-interface-react-7-pages' },
+            { text: '📊 Module 7 : Statistiques & Analytics ✅', link: '/dev/services/07-statistiques-analytics' },
+            { text: '🔗 Module 8 : Routes & Intégrations Avancées ✅', link: '/dev/services/08-routes-integrations-avancees' }
           ]
         }
       ],
