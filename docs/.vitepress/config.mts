@@ -74,6 +74,24 @@ export default defineConfig({
             { text: '📊 Module 7 : Statistiques & Analytics ✅', link: '/dev/services/07-statistiques-analytics' },
             { text: '🔗 Module 8 : Routes & Intégrations Avancées ✅', link: '/dev/services/08-routes-integrations-avancees' }
           ]
+        },
+        {
+          text: '📄 Documentation Devis (🚧 EN COURS)',
+          collapsed: false,
+          items: [
+            { text: '🎯 Module 1.1 : Vue d\'ensemble du Système ✅', link: '/dev/devis/01-vue-ensemble-systeme' },
+            { text: '🗄️ Module 1.2 : Modèles de Données ✅', link: '/dev/devis/02-modeles-donnees' },
+            { text: '🔄 Module 1.3 : Gestion des Statuts ✅', link: '/dev/devis/03-gestion-statuts' },
+            { text: '🔢 Module 1.4 : Auto-génération Numéros ✅', link: '/dev/devis/04-auto-generation-numeros' },
+            { text: '🎮 Module 2.1 : DevisController - CRUD ✅', link: '/dev/devis/2.1-devis-controller-crud' },
+            { text: '🔄 Module 2.2 : Gestion des Statuts Backend ✅', link: '/dev/devis/2.2-gestion-statuts-backend' },
+            { text: '📧 Module 2.3 : Système d\'Emails ✅', link: '/dev/devis/2.3-systeme-emails' },
+            { text: '📄 Module 2.4 : DevisPdfService ✅', link: '/dev/devis/2.4-devis-pdf-service' },
+            { text: '📊 Module 3.1 : Pages Liste et Détail ✅', link: '/dev/devis/3.1-pages-liste-detail' },
+            { text: '📝 Module 3.2 : Formulaires Création/Édition ✅', link: '/dev/devis/3.2-formulaires-creation-edition' },
+            { text: '📄 Module 3.3 : Interface PDF React ✅', link: '/dev/devis/3.3-interface-pdf-react' },
+            { text: '🚀 Module 3.4 : Fonctionnalités Avancées ✅', link: '/dev/devis/3.4-fonctionnalites-avancees' }
+          ]
         }
       ],
 
