@@ -76,8 +76,8 @@ export default defineConfig({
           ]
         },
         {
-          text: '📄 Documentation Devis (🚧 EN COURS)',
-          collapsed: false,
+          text: '📄 Documentation Devis (100% 🎉 FINALISÉE)',
+          collapsed: true,
           items: [
             { text: '🎯 Module 1.1 : Vue d\'ensemble du Système ✅', link: '/dev/devis/01-vue-ensemble-systeme' },
             { text: '🗄️ Module 1.2 : Modèles de Données ✅', link: '/dev/devis/02-modeles-donnees' },
@@ -90,7 +90,10 @@ export default defineConfig({
             { text: '📊 Module 3.1 : Pages Liste et Détail ✅', link: '/dev/devis/3.1-pages-liste-detail' },
             { text: '📝 Module 3.2 : Formulaires Création/Édition ✅', link: '/dev/devis/3.2-formulaires-creation-edition' },
             { text: '📄 Module 3.3 : Interface PDF React ✅', link: '/dev/devis/3.3-interface-pdf-react' },
-            { text: '🚀 Module 3.4 : Fonctionnalités Avancées ✅', link: '/dev/devis/3.4-fonctionnalites-avancees' }
+            { text: '🚀 Module 3.4 : Fonctionnalités Avancées ✅', link: '/dev/devis/3.4-fonctionnalites-avancees' },
+            { text: '🔄 Module 4.1 : Transformation en Factures ✅', link: '/dev/devis/4.1-transformation-factures' },
+            { text: '🎮 Module 4.2 : Système de Notifications ✅', link: '/dev/devis/4.2-systeme-notifications' },
+            { text: '🔗 Module 4.3 : Historique et Traçabilité ✅', link: '/dev/devis/4.3-historique-tracabilite' }
           ]
         }
       ],
