@@ -165,7 +165,7 @@ Le système de lignes fonctionne exactement comme pour les devis :
 - **Description personnalisée** : Modifiez si nécessaire
 - **Quantité** : Saisissez la quantité facturée
 - **Prix unitaire HT** : Prix du service
-- **Taux de TVA** : 20% par défaut
+- **Taux de TVA** : 8.5% par défaut
 
 **Calculs automatiques :**
 - Montant HT = Quantité × Prix unitaire HT

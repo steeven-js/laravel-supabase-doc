@@ -406,8 +406,8 @@ Maintenance Site        6 mois       80€ HT    480€ HT
 Licence CMS             3 unités    200€ HT    600€ HT
 ─────────────────────────────────────────────
                               TOTAL HT: 3880€ HT
-                              TVA 20%:   776€
-                              TOTAL TTC: 4656€ TTC
+                              TVA 8.5%:  702€
+                                                              TOTAL TTC: 4582€ TTC
 ```
 
 ---

@@ -595,7 +595,7 @@ $ligneDevis = LigneDevis::create([
     'service_id' => $service->id,
     'quantite' => 3,
     'prix_unitaire_ht' => $service->prix_ht,
-    'taux_tva' => 20.00,
+                'taux_tva' => 8.5,
     'ordre' => 1,
 ]);
 

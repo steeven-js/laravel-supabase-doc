@@ -29,7 +29,7 @@ CREATE TABLE `devis` (
   `objet` varchar(255) DEFAULT NULL,                     -- Objet du devis
   `description` text DEFAULT NULL,                       -- Description détaillée
   `montant_ht` decimal(10,2) DEFAULT 0.00,              -- Montant total HT
-  `taux_tva` decimal(5,2) DEFAULT 20.00,                -- Taux TVA moyen pondéré
+  `taux_tva` decimal(5,2) DEFAULT 8.5,                 -- Taux TVA moyen pondéré
   `montant_tva` decimal(10,2) DEFAULT 0.00,             -- Montant TVA total
   `montant_ttc` decimal(10,2) DEFAULT 0.00,             -- Montant total TTC
   `conditions` text DEFAULT NULL,                        -- Conditions particulières
@@ -183,7 +183,7 @@ CREATE TABLE `lignes_devis` (
   `service_id` bigint UNSIGNED DEFAULT NULL,             -- FK vers services (optionnel)
   `quantite` int NOT NULL DEFAULT 1,                     -- Quantité
   `prix_unitaire_ht` decimal(10,2) NOT NULL,            -- Prix unitaire HT
-  `taux_tva` decimal(5,2) NOT NULL DEFAULT 20.00,       -- Taux TVA applicable
+  `taux_tva` decimal(5,2) NOT NULL DEFAULT 8.5,        -- Taux TVA applicable
   `montant_ht` decimal(10,2) NOT NULL,                  -- Calculé automatiquement
   `montant_tva` decimal(10,2) NOT NULL,                 -- Calculé automatiquement
   `montant_ttc` decimal(10,2) NOT NULL,                 -- Calculé automatiquement
@@ -375,7 +375,7 @@ CONSTRAINT `lignes_devis_service_id_foreign`
 
 -- Contraintes numériques
 `montant_ht` decimal(10,2) DEFAULT 0.00     -- Max 99,999,999.99
-`taux_tva` decimal(5,2) DEFAULT 20.00       -- Max 999.99%
+`taux_tva` decimal(5,2) DEFAULT 8.5         -- Max 999.99%
 `quantite` int NOT NULL DEFAULT 1           -- Entier positif
 
 -- Contraintes d'unicité

@@ -138,7 +138,7 @@ Le numéro de devis est généré automatiquement au format **DV-AA-XXX** :
 - Modifiable si négociation tarifaire
 
 **Taux de TVA :**
-- 20% par défaut
+- 8.5% par défaut
 - Modifiable selon la situation
 
 #### Calculs automatiques

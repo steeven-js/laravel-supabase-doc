@@ -511,7 +511,7 @@ export default function DevisPdfPreview({
                             </Text>
                         </View>
                         <View style={styles.totalRow}>
-                            <Text style={styles.totalLabel}>TVA (20%) :</Text>
+                            <Text style={styles.totalLabel}>TVA (8.5%) :</Text>
                             <Text style={styles.totalValue}>
                                 {tva.toLocaleString('fr-FR')} €
                             </Text>
