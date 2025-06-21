@@ -290,7 +290,7 @@ export default function DevisIndex({ devis }: Props) {
   const selection = useDevisSelection();
   
   return (
-    <DevisProvider value={{ filters, sorting, selection }}>
+    <DevisProvider value={{ "{{ filters, sorting, selection }}" }}>
       <DevisLayout>
         <DevisFilters />
         <DevisMetrics />

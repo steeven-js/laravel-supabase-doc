@@ -19,7 +19,7 @@ Le module Emails et Templates gère l'ensemble du système de communication auto
 - **9 champs fillable** avec castings JSON pour variables
 - **4 catégories principales** : envoi_initial, rappel, relance, confirmation
 - **15 sous-catégories** spécialisées (promotionnel, concis_direct, etc.)
-- **Variables dynamiques** : système de remplacement `{{variable}}`
+- **Variables dynamiques** : système de remplacement `&#123;&#123;variable&#125;&#125;`
 - **Templates par défaut** : un par catégorie avec gestion automatique
 - **Système actif/inactif** : templates désactivables
 
@@ -189,7 +189,7 @@ emails/
 
 #### Caractéristiques Templates
 - **Markdown Laravel** : syntaxe enrichie
-- **Variables dynamiques** : `{{ $variable }}`
+- **Variables dynamiques** : `$variable`
 - **Styles cohérents** : branding Madinia
 - **Responsive** : adaptation mobile
 - **Pièces jointes** : intégration automatique
@@ -239,7 +239,7 @@ emails/
 #### Module 2.2 : Système de Variables (1 jour)
 - 20+ variables contextuelles
 - Formatage et traitement données
-- Compatibilité double format `{{var}}`
+- Compatibilité double format `&#123;&#123;var&#125;&#125;`
 - Données client/devis/facture/madinia
 
 #### Module 2.3 : EmailLogService Complet (1,5 jour)
