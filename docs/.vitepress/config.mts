@@ -11,6 +11,7 @@ export default defineConfig({
       { text: '🏠 Accueil', link: '/' },
       { text: '👥 Administrateurs', link: '/admin/guide-introduction' },
       { text: '🛠️ Développeurs', link: '/dev/' },
+      { text: '🚀 Améliorations & Roadmap', link: '/dev/ameliorations-dashboard' },
       { text: '📋 Planning (100%)', link: '/admin/planning-redaction' }
     ],
 
@@ -21,6 +22,14 @@ export default defineConfig({
           text: '🛠️ Documentation Développeurs',
           items: [
             { text: '🏠 Accueil Développeurs', link: '/dev/' }
+          ]
+        },
+        {
+          text: '🚀 Roadmap & Améliorations',
+          items: [
+            { text: '🚀 Axes d\'Amélioration Dashboard', link: '/dev/ameliorations-dashboard' },
+            { text: '🆚 Comparaison vs Axonaut', link: '/dev/ameliorations-dashboard#comparaison-avec-axonaut-solution-de-référence' },
+            { text: '🔍 Analyse DevisIndex.tsx', link: '/dev/analyse-optimisation-devis-index' }
           ]
         },
         {
