@@ -12,17 +12,29 @@ export default defineConfig({
       { text: '👑 Administrateurs', link: '/admin/guide-introduction' },
       { text: '⚙️ Développeurs', link: '/dev/' },
       { text: '🚀 Roadmap', link: '/dev/roadmap/planning-redaction' },
-      { text: '📅 Versioning', link: '/planning/VERSIONING_TIMELINE_V1.0' }
+      { text: '📅 Plan Détaillé v1.0', link: '/planning/VERSIONING_TIMELINE_V1.0' }
     ],
 
     sidebar: {
       // Sidebar pour la section planning et versioning
       '/planning/': [
         {
-          text: '📅 Planning & Versioning',
+          text: '📅 Planning & Roadmap v1.0',
           items: [
-            { text: '📊 Timeline v1.0 - Roadmap 6 mois', link: '/planning/VERSIONING_TIMELINE_V1.0' },
-            { text: '🔄 Routine de Versioning', link: '/planning/prompt_de_versioning' }
+            { text: '📋 Guide Planning & Documents', link: '/planning/' },
+            { text: '📊 Plan Détaillé Complet par Phases', link: '/planning/VERSIONING_TIMELINE_V1.0' },
+            { text: '📋 Résumé Exécutif - Vue d\'ensemble', link: '/planning/plan-detaille-phases-resume' },
+            { text: '🔄 Méthodologie de Versioning', link: '/planning/prompt_de_versioning' }
+          ]
+        },
+        {
+          text: '🚀 Actions Immédiates',
+          items: [
+            { text: '🔥 Phase 1 - Fondations Robustes (4-6 sem)', link: '/planning/plan-detaille-phases-resume#phase-1-fondations-robustes-4-6-semaines' },
+            { text: '📈 Phase 2 - CRM Avancé (6-8 sem)', link: '/planning/plan-detaille-phases-resume#phase-2-crm-avance-6-8-semaines' },
+            { text: '📱 Phase 3 - Mobile Excellence (4-5 sem)', link: '/planning/plan-detaille-phases-resume#phase-3-mobile-excellence-4-5-semaines' },
+            { text: '🔧 Phase 4 - API & Intégrations (3-4 sem)', link: '/planning/plan-detaille-phases-resume#phase-4-api-integrations-3-4-semaines' },
+            { text: '🎯 Phase 5 - Production Ready (3-4 sem)', link: '/planning/plan-detaille-phases-resume#phase-5-production-ready-3-4-semaines' }
           ]
         }
       ],

@@ -17,7 +17,7 @@ hero:
       text: 🛠️ Documentation Développeur
       link: /dev/
     - theme: alt
-      text: 📅 Roadmap & Versioning
+      text: 📅 Plan Détaillé Roadmap v1.0
       link: /planning/VERSIONING_TIMELINE_V1.0
 
 features:
@@ -34,8 +34,8 @@ features:
     details: Axes d'amélioration, comparaison concurrentielle, analyse performance et feuille de route technique
     link: /dev/ameliorations-dashboard
   - icon: 📊
-    title: Versioning & Planning
-    details: Timeline de développement, gestion des versions et routines de mise à jour pour un suivi professionnel
+    title: Plan Détaillé par Phases v1.0
+    details: Plan complet 26 semaines vers v1.0 avec modules détaillés, estimations et critères d'acceptation par phase
     link: /planning/VERSIONING_TIMELINE_V1.0
   - icon: 🎯
     title: Architecture Modulaire
@@ -62,11 +62,14 @@ features:
 - ✅ Composants React et interface utilisateur
 - 🚀 Phase d'optimisation et tests avancés
 
-### Roadmap & Versioning 📈 **Actif**
-- ✅ Timeline v1.0 - Roadmap 6 mois
+### Roadmap & Versioning 📈 **Plan Détaillé Complet**
+- ✅ **Plan détaillé 26 semaines** par phases vers v1.0
+- ✅ **5 phases** avec modules détaillés et estimations
+- ✅ **12 fonctionnalités UX** vs concurrents intégrées
+- ✅ **Milestones critiques** et métriques de succès
 - ✅ Analyse comparative vs Axonaut
 - ✅ Axes d'amélioration prioritaires
-- 🚀 Processus de versioning automatisé
+- 🚀 Prêt pour exécution phase par phase
 
 ---
 
@@ -93,4 +96,36 @@ features:
 - Conformité e-facture France 2026
 - Monitoring et logs centralisés
 - Interface responsive et accessible
+
+## 🚀 **Roadmap v1.0 - Prochaines Étapes**
+
+### **📅 Phase 1 (4-6 semaines) - Fondations Robustes**
+- Tests automatisés complets (≥80% couverture)
+- Performance optimisée (<2s load time)
+- Sécurité renforcée (audit OWASP)
+- **4 fonctionnalités UX Quick Wins** vs concurrents
+
+### **📈 Phase 2 (6-8 semaines) - CRM Avancé**
+- Pipeline de ventes avec Kanban
+- Reporting & analytics avancés
+- **4 fonctionnalités UX Confort** (widgets, filtres, import/export)
+- Segmentation clients intelligente
+
+### **📱 Phase 3 (4-5 semaines) - Mobile Excellence**
+- Interface mobile responsive
+- Accessibilité WCAG 2.1
+- **3 fonctionnalités UX Mobile** (touch, thèmes, timeline)
+- PWA features
+
+### **🔧 Phase 4 (3-4 semaines) - API & Intégrations**
+- API REST complète avec documentation
+- OAuth 2.0 et webhooks
+- **1 fonctionnalité UX Différenciante** (onboarding interactif)
+- Exports/imports avancés
+
+### **🎯 Phase 5 (3-4 semaines) - Production Ready**
+- Pipeline CI/CD complet
+- Monitoring et observabilité
+- Backup automatisé
+- Documentation finale
 
