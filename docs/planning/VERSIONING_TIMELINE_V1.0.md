@@ -31,6 +31,9 @@ Techniques    Performance     Analytics      Mobile         Intégrations   Read
 ##### **1.1 Tests Automatisés Complets** *(4 semaines - CRITIQUE)*
 
 **Tests Unit (2 semaines)**
+- [x] **Infrastructure tests SQLite avancée** : Configuration complète fichiers temporaires
+- [x] **Tests de visibilité des données** : Inspection complète base de données (43 tables)
+- [x] **TestCase optimisé** : Création automatique fichiers SQLite uniques + migrations
 - [ ] Tests modèles : Client, Entreprise, Devis, Facture, Service
 - [ ] Tests services : ModeService, StripeService, EmailLogService
 - [ ] Tests traits : HasHistorique, SendsNotifications, UsesModeTable
@@ -107,6 +110,7 @@ Techniques    Performance     Analytics      Mobile         Intégrations   Read
 - [ ] Audit logs : Connexions, actions admin
 
 #### Critères d'Acceptation
+- [x] **Infrastructure Tests** : Système SQLite temporaire fonctionnel + tests visibilité
 - [ ] **Tests** : 200+ tests Unit/Feature/Browser passants
 - [ ] **Performance** : Toutes pages < 2s, requêtes DB < 100ms
 - [ ] **Sécurité** : Scan OWASP Zap clean, rate limiting actif
@@ -115,7 +119,13 @@ Techniques    Performance     Analytics      Mobile         Intégrations   Read
 
 #### Fonctionnalités Livrées
 ```
-✅ Tests automatisés (Unit, Feature, Browser)
+✅ Infrastructure Tests SQLite Avancée (v0.4.4):
+   • Configuration fichiers SQLite temporaires (vs :memory:)
+   • Tests visibilité données : 43 tables inspectables
+   • TestCase automatisé : migrations + fichiers uniques
+   • Documentation complète + outils CLI/graphiques
+
+🔧 Tests automatisés (Unit, Feature, Browser) - EN COURS
 ✅ Optimisation DB (index, eager loading, cache Redis)
 
 🔥 UX CONCURRENTIELLE:
