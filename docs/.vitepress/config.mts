@@ -12,10 +12,22 @@ export default defineConfig({
       { text: '👥 Administrateurs', link: '/admin/guide-introduction' },
       { text: '🛠️ Développeurs', link: '/dev/' },
       { text: '🚀 Améliorations & Roadmap', link: '/dev/ameliorations-dashboard' },
-      { text: '📋 Planning (100%)', link: '/admin/planning-redaction' }
+      { text: '📋 Planning (100%)', link: '/admin/planning-redaction' },
+      { text: '📅 Versioning', link: '/planning/VERSIONING_TIMELINE_V1.0' }
     ],
 
     sidebar: {
+      // Sidebar pour la section planning et versioning
+      '/planning/': [
+        {
+          text: '📅 Planning & Versioning',
+          items: [
+            { text: '📊 Timeline v1.0 - Roadmap 6 mois', link: '/planning/VERSIONING_TIMELINE_V1.0' },
+            { text: '🔄 Prompt de Versioning - Routine', link: '/planning/prompt_de_versioning' }
+          ]
+        }
+      ],
+
       // Sidebar pour la documentation développeurs
       '/dev/': [
         {
